@@ -1,0 +1,154 @@
+
+Intro Python Questions
+
+Beginner
+Problem 1:Write a program to print your name (no input).
+
+Example Output: Titash Mandal 
+
+Problem 2: Program to enter two integers and print their sum, difference and product 
+
+Example Output: Please enter the first integer: 7 
+		    Please enter the second integer: 6 
+		    Their sum is: 13, their difference is: -1, their product is: 42 
+
+
+Moderate
+
+Problem 3: Write a few lines of code that: 
+- Ask the user to input number of days 
+- Convert the number of days into the form of weeks and days 
+- Display the result 
+
+Example Output: Please enter number of days: 12 
+		    12 days is equal to 1 week and 5 days  
+Advanced
+Problem 4: Write a few lines of code that: - Ask the user to input an integer as the radius - Compute the circumference and area of a circle with the input radius - Display the result 
+You can use 3.14 as the value of pi.
+
+Example Output: Please enter the radius of a circle: 15
+      The circumference of the circle is 94.25, the area of the circle is 706.858
+
+
+
+
+
+
+
+
+
+
+
+
+Problem 5:
+Write a few lines of code that: 
+	Part A: Parsing the user input - 
+Ask user to input a date of birth - 
+Ask user to input today’s date - 
+Display the date of birth and today’s date in the mm/dd/yyyy format - 
+
+Hint:​ use divide, div and modulo!!! 
+
+Example Output: Please enter a date of birth: 19951117 
+                  Please enter today’s date: 20170901 
+                  Date of birth is 11/17/1995 
+                  Today’s date is 9/1/2017 
+
+
+Conditionals:
+Beginner
+Problem 1: Problem 1: Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty (length 0). 
+Example Output:
+Please enter string a: hello 
+Please enter string b: hi
+hihellohi 
+
+Moderate
+Problem 2: 
+Ask the user to enter grades for a student between 0-100.
+If the student gets a score of 92-100 - Print - ‘Grade A excellent work !’
+If the score is between -83-91- Print- “ Grade B+, Good Job !”
+If the score is between - 70-82- Print- “Grade B, Fair Job !”
+Else just print - “Need to work harder next time”
+
+Problem 3:  Input a 4 digit number and check if every digit of the number is even or not. If every digit is even, return with the message saying “All are even”. Else print a message - “ Nope, not all digits are even!” 
+
+
+
+
+
+Advanced
+Problem 4: 
+Check if the number is in this range 1000-3000(inclusive) , 
+If it is in that range, check that it should be a multiple of 5 but not a multiple of 3. 
+
+If it satisfies both the conditions, print the factors of the number. If the number is in the range but not following the factor condition, just print number. If the number is not in the range, print error and ask user to enter the number again.
+.
+
+
+For-While Loops
+
+Beginner
+Problem 1: Count to 100 in a for loop printing only even numbers.
+
+Problem 2: Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+Problem 3: Write a program that asks user to input two positive integers a(Bigger Number) and b(Smaller Number) , and print out the quotient and remainder of a divided by b. The only arithmetic operations your program can use are addition and  subtraction. 
+
+Example Output:  an execution would look like this: 
+Please enter a positive integer as the dividend: 13 
+Please enter a positive integer as the divisor: 5 
+Quotient of 13 divided by 5 is: 2 
+Remainder: 3
+
+Problem 4: Write a program that prints perfect cubes that are less than n (input from the user). For example, if n = 30
+Example Output:
+1 
+8 
+27
+
+Moderate
+Problem 5: Number guessing 
+Randomly Generate a number using the random() function between 0 and 100 and create a program to guess the computer generated random number by running your program. 
+
+If the number is higher, the programs says “Too high”, if it is lower, then it says “Too low”
+Hints: You can use import random for this. import random, number = random.randint(lower_limit, upper_limit)
+
+
+
+
+Problem 6: Create a four digit number from digits 1-9. The program should:
+ask for guesses to this number
+reject guesses that are malformed
+print the score for the guess
+The score is computed as:
+The player wins if the guess is the same as the randomly chosen number, and the program ends.
+A score of one bull is accumulated for each digit in the guess that equals the corresponding digit in the randomly chosen initial number.
+If the digit does not exist in the correct index it’s just a cow.
+
+Advanced
+
+Problem 7: ​​Ask the user for a sentence. Then, reverse every word of the sentence. Example    Output: Please enter strings: Let’s do our best in CS1114! 
+Result: s’teL od ruo tseb ni !4111SC
+
+Problem 8: Write a program that asks user to input an integer n and print out a n-by-n matrix filled with ‘x’s and with ‘o’s on the diagonal. For example, if n = 5, the output should look like this:
+
+Problem 9: Ask the user to input a decimal integer less than 100. 
+- Convert the input to Roman numbers and display. 
+- Hint: Roman numerals and decimals follow the table below. 
+
+For numbers less than 100 in decimal, no need to consider subtractions. 
+- i.e., 4 = IIII, 9 = VIIII instead of IV and IX. 
+
+Functions
+Problem 1: Write a function that takes a string of 1s and 0s as argument. The function will prints out the number of consecutive 1s and 0s.
+ Example Output: 
+encodeBinary('1111000110') 
+4 1's 
+3 0's 
+2 1's 
+1 0's 
+
+Problem 2: Write a function that takes an integer myInt and a positive integer n as two arguments and return a list of n consecutive integers that begins with myint. For example: 
+If myInt = 10 and n = 5
+your function should return the list [10, 11, 12, 13, 14]
